@@ -1,0 +1,7 @@
+A small, bash-like shell to practice threading, signal handling, and working in c. This shell supports three built in commands; exit, cd, and status. 
+It also supports comments beginning with the '#' character, as well as the special symbols <, >, and &, which function the same as in bash. 
+
+General syntax is: command [arg1 arg2 ...][< input file] [> output file] [&]
+
+
+To compile/run: gcc -o smallsh smallsh.c, then enter smallsh on command line
